@@ -1,5 +1,7 @@
 package testSonar.TestSonar;
 
+import java.util.List;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -33,7 +35,8 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( App.hola() == "hola" );
-        
+    	List<Integer> list;
+    	list.add(2);
+        assertTrue( App.hola() == 5 );
     }
 }

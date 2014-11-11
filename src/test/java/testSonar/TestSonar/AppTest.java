@@ -35,7 +35,7 @@ public class AppTest
      */
     public void testApp()
     {
-    	List<Integer> list;
+    	List<Integer> list = null;
     	list.add(2);
         assertTrue( App.hola() == 5 );
     }

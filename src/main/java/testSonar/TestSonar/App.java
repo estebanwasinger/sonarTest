@@ -12,6 +12,6 @@ public class App
     }
     
     public static int hola(){
-    	return "hola";
+    	return 4;
     }
 }
